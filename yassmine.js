@@ -3,6 +3,12 @@
 //the same food with the first letter being
 // capitalized.capitalize("pizza").
 
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+    
+}
+capitalize("yasmine")
+
 
 
 //!EXTRA 
@@ -16,3 +22,12 @@
 // function (x) square3 {
 // return x * x;
 // }
+function square1(x) {
+    return x * x ;
+    }
+    function square2(x){
+    return x * x ;
+    }
+    function square3(x){
+        return x * x;
+        }
